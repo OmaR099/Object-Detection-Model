@@ -75,4 +75,4 @@ Present the evaluation results quantitatively and visually. Include:
 - A summary of mAP scores: 0.666 (66%).
 - Some samples of predicted images:
 
-<img src="https://github.com/user-attachments/assets/b3f01219-754c-4ac2-adb8-a856924ecff6" alt="image" width="350" height="350" /> <img src="https://github.com/user-attachments/assets/0b5d6af4-0824-45df-9a28-c807a11a5861" alt="image" width="350" height="350" />
+   <img src="https://github.com/user-attachments/assets/b3f01219-754c-4ac2-adb8-a856924ecff6" alt="image" width="350" height="350" /> <img src="https://github.com/user-attachments/assets/0b5d6af4-0824-45df-9a28-c807a11a5861" alt="image" width="350" height="350" />
