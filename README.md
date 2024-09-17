@@ -1,7 +1,7 @@
 # Object-Detection-Model
 
 <div style="text-align: center;"> 
-<img src="https://github.com/user-attachments/assets/9501c2b1-d25a-4662-903c-b18a93fd54d5" alt="image" width="650" height="650" />
+<img src="https://github.com/user-attachments/assets/9501c2b1-d25a-4662-903c-b18a93fd54d5" alt="image" width="950" height="550" />
 </div>  
 
 ## Table of Contents  
