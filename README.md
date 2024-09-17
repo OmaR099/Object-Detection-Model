@@ -1,4 +1,9 @@
 # Object-Detection-Model
+
+<div style="text-align: center;"> 
+<img src="https://github.com/user-attachments/assets/9501c2b1-d25a-4662-903c-b18a93fd54d5" alt="image" width="650" height="650" />
+</div>  
+
 ## Table of Contents  
 - [Project Overview](#project-overview)  
 - [Installation](#installation)
@@ -12,9 +17,6 @@ This project implements an object detection model using YOLOv8 to classify and d
 2. **Manufacturing Items**: Identifies various items used in manufacturing processes.  
 
 This model aims to provide robust detection capabilities enhancing automation in gaming and industrial applications.
-
-![_60ebbaa1-7fe3-4e79-b2e1-5708a8978775](https://github.com/user-attachments/assets/48c032bc-c2fd-4cae-a2ff-9cce59b7fca1)
-
 
 ## Installation  
 To set up the project, clone this repository and install the required packages. 
