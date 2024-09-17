@@ -11,7 +11,10 @@ This project implements an object detection model using YOLOv8 to classify and d
 1. **Rock-Paper-Scissors**: Detects hand signs for the classic game rock-paper-scissors.  
 2. **Manufacturing Items**: Identifies various items used in manufacturing processes.  
 
-This model aims to provide robust detection capabilities enhancing automation in gaming and industrial applications.  
+This model aims to provide robust detection capabilities enhancing automation in gaming and industrial applications.
+
+![_60ebbaa1-7fe3-4e79-b2e1-5708a8978775](https://github.com/user-attachments/assets/48c032bc-c2fd-4cae-a2ff-9cce59b7fca1)
+
 
 ## Installation  
 To set up the project, clone this repository and install the required packages. 
