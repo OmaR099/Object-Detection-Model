@@ -16,8 +16,8 @@ This model aims to provide robust detection capabilities enhancing automation in
 ## Installation  
 To set up the project, clone this repository and install the required packages. 
 ```bash  
-git clone https://github.com/yourusername/repo-name.git  
-cd repo-name  
+git clone https://github.com/OmaR099/Object-Detection-Model.git
+cd Object-Detection-Model  
 pip install -r requirements.txt.
 ```
  
