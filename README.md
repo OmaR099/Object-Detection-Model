@@ -4,10 +4,8 @@
 - [Installation](#installation)
 - [Usage](#usage)  
 - [Dataset](#dataset)  
-- [Training](#training)  
 - [Evaluation](#evaluation)  
 - [Results](#results)  
-- [Acknowledgements](#acknowledgements)
 ## Project Overview  
 This project implements an object detection model using YOLOv8 to classify and detect objects for two tasks:  
 1. **Rock-Paper-Scissors**: Detects hand signs for the classic game rock-paper-scissors.  
@@ -47,29 +45,34 @@ To train the model on your custom dataset, use the following command:
 ## Dataset
 Provide information about the datasets used:
 
-- **Rock-Paper-Scissors dataset**: Describe the dataset, including the number of images, classes, and how to obtain it (e.g., a link to download).
-- **Manufacturing items dataset**: Same as above.
-Make sure to include instructions on how to structure the dataset and any preprocessing steps that might be necessary.
-
-## Training
-Explain how to properly set up for training:
-
-- Specify the config files (like data.yaml and model architecture).
-- Discuss augmentation techniques used during training.
-- Provide details on hyperparameters you used and any noteworthy experiments.
+- **Rock-Paper-Scissors dataset**: The dataset used in this task, the rock-paper-scissors Computer Vision Project from Roboflow, includes 3129 images, and 3 classes, you can obtain it using this link https://universe.roboflow.com/roboflow-58fyf/rock-paper-scissors-sxsw.
+- **Manufacturing items dataset**: The dataset used in this task, the cv-project-fins0 from Roboflow, includes 632 images, and 12 classes.
 
 ## Evaluation
-Outline how to evaluate the model's performance:
+Model's performance and how to evaluate it:
 
 - Metrics used (mAP, precision, recall).
-- Example commands to evaluate on the validation dataset:
+![image](https://github.com/user-attachments/assets/672293b1-421c-47e3-a32c-35dd5a144036)
+
+- Example commands to display the confusion_matrix:
 ```bash  
-!yolo task=detect mode=val model=/content/runs/detect/train/weights/best.pt data=data.yaml
+from IPython.display import display, Image
+Image(filename=f'/content/runs/detect/train2/confusion_matrix.png',width=600)
 ```
+![image](https://github.com/user-attachments/assets/e3854d67-30c9-4636-bec4-64707a8d6c66)
+
 
 ## Results
 Present the evaluation results quantitatively and visually. Include:
 
-- Sample images with detected objects annotated.
-- A summary of mAP scores and other metrics for both tasks.
-- Discuss insights or observations from the results.
+**Rock-Paper-Scissors dataset**:
+- A summary of mAP scores: .
+- Some samples of predicted images:
+
+
+
+**Manufacturing items dataset**:
+- A summary of mAP scores: 0.666 (66%).
+- Some samples of predicted images:
+
+<img src="https://github.com/user-attachments/assets/b3f01219-754c-4ac2-adb8-a856924ecff6" alt="image" width="350" height="350" /> <img src="https://github.com/user-attachments/assets/0b5d6af4-0824-45df-9a28-c807a11a5861" alt="image" width="350" height="350" />
