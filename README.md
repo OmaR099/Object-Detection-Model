@@ -52,6 +52,7 @@ Provide information about the datasets used:
 Model's performance and how to evaluate it:
 
 - Metrics used (mAP, precision, recall).
+
 ![image](https://github.com/user-attachments/assets/672293b1-421c-47e3-a32c-35dd5a144036)
 
 - Example commands to display the confusion_matrix:
@@ -59,8 +60,7 @@ Model's performance and how to evaluate it:
 from IPython.display import display, Image
 Image(filename=f'/content/runs/detect/train2/confusion_matrix.png',width=600)
 ```
-![image](https://github.com/user-attachments/assets/e3854d67-30c9-4636-bec4-64707a8d6c66)
-
+![image](https://github.com/user-attachments/assets/fb66e12e-b514-4216-9efe-aff07823bd01)
 
 ## Results
 Present the evaluation results quantitatively and visually. Include:
